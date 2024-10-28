@@ -12,4 +12,4 @@ def test_number_conversion(number_str, number):
     assert number == int(number_str), "Ошибка в преобразовании строки в число"  
 
 def test_firazology(is_fixed: bool):
-    assert not is_fixed, "Не понимаю, тебе что, нужен X6-й?"
+    assert is_fixed, "Не понимаю, тебе что, нужен X6-й?"
